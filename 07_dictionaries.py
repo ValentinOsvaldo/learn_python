@@ -54,3 +54,13 @@ print('Dog:', dog)
 # Use loop in dictionary
 for keys in dog:
   print(keys)
+
+new_order = {
+	'name': '',
+  'address': ''
+}
+
+new_order['name'] = input('Enter your name: ')
+new_order['address'] = input('Enter your address: ')
+
+print(new_order)
